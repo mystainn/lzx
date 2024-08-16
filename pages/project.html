@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lzx's Projects</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .head {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 40px;
+      }
+      .end {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 40px;
+        font-size: 12px;
+      }
+      .myIMG {
+        border-radius: 50%;
+      }
+      .flex-container {
+        margin: 30px auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1400px;
+      }
+      .flex-container::after {
+        content: "";
+        height: 0;
+        /* 和内容项的宽度保持一致 */
+        width: 300px;
+      }
+      .flex-item {
+        background-color: cornflowerblue;
+        margin: 30px;
+        width: 290px;
+        height: 200px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <img
+        class="myIMG"
+        src="../imgs/me.png"
+        alt="林子雄"
+        width="80px"
+        height="80px"
+      />
+    </div>
+    <div class="flex-container">
+      <div class="flex-item">
+        <a href="./pages/contact.html">ProjectOne：HTML+CSS flex布局系统</a>
+      </div>
+      <div class="flex-item">flex item 2</div>
+      <div class="flex-item">flex item 3</div>
+      <div class="flex-item">flex item 3</div>
+      <div class="flex-item">flex item 3</div>
+      <div class="flex-item">flex item 3</div>
+      <div class="flex-item">flex item 3</div>
+      <div class="flex-item">flex item 3</div>
+      <div class="flex-item">flex item 3</div>
+    </div>
+    <div class="end">
+      <p>Copyright © 2020-2021 Lin Zixiong. All rights reserved.</p>
+      <a href="">友情链接</a>
+    </div>
+  </body>
+</html>
